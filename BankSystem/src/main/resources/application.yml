@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/users
+    username: root
+    password: java
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.yandex.ru
+    port: 465
+    username: digi50707@yandex.ru
+    password: zwuyiwbhvpgjrvjs
+    protocol: smtps
